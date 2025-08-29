@@ -1,0 +1,28 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.git
+.gitignore
+README.md
+.env
+.venv
+
+# Ignore specific Python files
+eval.py
+model.py
+
+# Byte-compiled / cache
+*.pkl
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local dev configs
+*.swp
+*.DS_Store
+
+# Ignore dataset folders
+tirupati_data_robo/train/
+tirupati_data_robo/valid/
